@@ -1,6 +1,6 @@
 services:
   zai2api:
-    build: .
+    image: ghcr.io/noir017/zai2api:latest
     container_name: zai2api
     ports:
       - "8000:8000"
